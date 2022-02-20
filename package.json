@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Calsimm/Teste-Ebac-UI#readme",
   "devDependencies": {
     "cypress": "^9.5.0"
+  },
+  "dependencies": {
+    "faker": "^6.6.6",
+    "faker-br": "^0.4.1"
   }
 }
