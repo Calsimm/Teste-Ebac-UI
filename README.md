@@ -2,13 +2,13 @@
 
 ## Exercício: Automação UI
 
-### Criar um repositório no github;
-### • Clonar o repositório (git clone);
-### • Abrir o VS Code na pasta do projeto;
-### • Iniciar um projeto node (npm init –y);
-### • Instalar o cypress (npm install cypress –D);
-### • Abrir o exemplo do cypress (npx cypress open);
-### • Recriar os exemplos de testes:
+### Foi realizado a criação um repositório no github;
+### Realizado o clone do repositório (git clone);
+### Abertura do VS Code na pasta do projeto;
+### Iniciei um projeto node (npm init –y);
+### Instalei o cypress (npm install cypress –D);
+### Realizie a abertura do exemplo do cypress (npx cypress open);
+### Recriei os exemplos de testes:
 #### • Login
 #### • Pré-cadastro
 #### • Produtos
