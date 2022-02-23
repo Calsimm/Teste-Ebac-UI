@@ -32,7 +32,12 @@ describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
         cy.get('.woocommerce-message').should('contain', 'Endereço alterado com sucesso.')
     });
 
-    it('Deve fazer cadastro de entrega com sucesso', () => {
+    it('Deve fazer cadastro de entrega com sucesso ', () => {
+        EnderecoPage.editarEnderecoEntrega('Ana', 'Silva', 'EBAC', 'Brasil', 'Rua São Paulo', '21', 'Presidente Prudente', 'São Paulo', '19025510',)
+        cy.get('.woocommerce-message').should('contain','Endereço alterado com sucesso.')
+    });
+
+    it('Deve fazer cadastro de entrega com sucesso usando arquivo de dados', () => {
         EnderecoPage.editarEnderecoEntrega(
             dadosEndereco[2].nome,
             dadosEndereco[2].sobrenome,
@@ -42,9 +47,7 @@ describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
             dadosEndereco[2].numeroendereco,
             dadosEndereco[2].cidade,
             dadosEndereco[2].estado,
-            dadosEndereco[2].cep,
-            dadosEndereco[2].telefone,
-            dadosEndereco[2].email)
+            dadosEndereco[2].cep)
         cy.get('.woocommerce-message').should('contain','Endereço alterado com sucesso.')
     });
 });
