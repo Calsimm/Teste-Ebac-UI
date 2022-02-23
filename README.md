@@ -12,3 +12,4 @@
 #### • Login
 #### • Pré-cadastro
 #### • Produtos
+#### • Endereço (faturamento e entrega)
